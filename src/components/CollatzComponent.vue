@@ -10,7 +10,6 @@
             <ul>
                 <li v-for="num in numerosCollatz" :key="num"
                 v-html="$filters.evaluarNumero(num)">
-                    
                 </li>
             </ul>
         </div>
